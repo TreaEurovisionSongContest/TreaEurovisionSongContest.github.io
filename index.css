@@ -1,4 +1,4 @@
-  .u-section-1 {
+.u-section-1 {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(245, 247, 250, 0.2)), url("images/UnitedByMusicBackground.png");
   background-position: 50% 50%, 50% 50%;
   background-repeat: no-repeat, no-repeat;
@@ -15,9 +15,7 @@
 }
 
 .u-section-1 .u-text-2 {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 60px;
+  margin: 10px auto 60px;
 }
 
 @media (max-width: 1199px) {
@@ -30,21 +28,29 @@
   .u-section-1 .u-sheet-1 {
     min-height: 552px;
   }
+
+  .u-section-1 .u-text-2 {
+    margin-bottom: -15px;
+  }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 414px;
+    min-height: 419px;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 3rem;
   }
+
+  .u-section-1 .u-text-2 {
+    margin-bottom: -131px;
+  }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 261px;
+    min-height: 406px;
   }
 
   .u-section-1 .u-text-1 {
